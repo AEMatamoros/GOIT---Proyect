@@ -1,79 +1,253 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Document</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <aside class="main_aside">
-            <div class="aside_top">
-                <img src="./img/logo.png" alt="">
+      <!-- <aside class="main_aside">
+        <div class="aside_top">
+          <img src="./img/logo.png" alt="" />
+        </div>
+        <div class="aside_bottom">
+          <a
+            class="vertical-text aside_link"
+            href="https://www.instagram.com"
+            rel="noopener noreferrer"
+            target="_blank"
+            >Instagram</a
+          >
+          <a
+            class="vertical-text aside_link"
+            href="https://www.youtube.com"
+            rel="noopener noreferrer"
+            target="_blank"
+            >Youtube</a
+          >
+        </div>
+      </aside> -->
+      <main class="main app-section">
+        <header class="main_header">
+          <nav class="navbar">
+            <ul class="header_links">
+              <li class="header_links_items">
+                <a class="header_links_itemsref active" href="#about"
+                  >Acerca de</a
+                >
+              </li>
+              <li class="header_links_items">
+                <a class="header_links_itemsref" href="#services"
+                  >Servicios y precios</a
+                >
+              </li>
+              <li class="header_links_items">
+                <a class="header_links_itemsref" href="#barbers">Barberos</a>
+              </li>
+              <li class="header_links_items">
+                <a class="header_links_itemsref" href="#contact">Contacto</a>
+              </li>
+            </ul>
+            <div class="header_buttons">
+              <strong>
+                <a
+                  href="tel:+50496947669"
+                  style="color: white; text-decoration: none"
+                  >+504 9694-7669</a
+                >
+              </strong>
+              <button class="main_button">Reserva en linea</button>
             </div>
-            <div class="aside_bottom">
-                <a class="vertical-text aside_link" href="https://www.instagram.com" rel="noopener noreferrer"
-                    target="_blank">Instagram</a>
-                <a class="vertical-text aside_link" href="https://www.youtube.com" rel="noopener noreferrer"
-                    target="_blank">Youtube</a>
-            </div>
-        </aside>
-        <main class="main">
-            <header class="main_header">
-                <nav class="navbar">
-                    <ul class="header_links">
-                        <li class="header_links_items"> <a class="header_links_itemsref active" href="#about">About</a>
-                        </li>
-                        <li class="header_links_items"> <a class="header_links_itemsref" href="#services">Services and
-                                prices</a> </li>
-                        <li class="header_links_items"> <a class="header_links_itemsref" href="#barbers">Barbers</a>
-                        </li>
-                        <li class="header_links_items"> <a class="header_links_itemsref" href="#contact">Contacts</a>
-                        </li>
-                    </ul>
-                    <div class="header_buttons">
-                        <strong>
-                            <a href="tel:+50496947669" style="color: white; text-decoration: none;">+504 9694-7669</a>
-                        </strong>
-                        <button class="main_button">Book a Service</button>
-                    </div>
-                </nav>
-            </header>
-            <section class="main_text_section">
-                <span>A Hair salon for men</span>
-                <h1>Barber Shop</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere sint dicta quae.</p>
-            </section>
-            <div class="slide_controls">
-                <ul class="slide_controlers">
-                    <li>Back
-                    </li>
-                    <li>Next
-                    </li>
-                </ul>
-            </div>
-        </main>
-        <section class="about_section" id="about">
-            <div class="img-section">
-                <img width="46%" src="./img/img1.jpg" alt="Image 1">
-                <img width="46%" src="./img/img2.jpg" alt="image 2">
-            </div>
-            <div class="text-section">
-                <span>Lorem.</span>
-                <h2>Lorem, ipsum dolor sit amet consectetur adipisicing.</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ad neque delectus unde, alias, a quo
-                    blanditiis minima amet soluta, laboriosam illo. Repellendus, libero quod!</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem rem odit nesciunt et ut consequatur
-                    pariatur cum? Ipsam aliquam blanditiis vitae tempora recusandae vero, facere fugiat perferendis
-                    dolor maiores itaque?</p>
-                <button class="main_button generic">Book a Service</button>
-            </div>
+          </nav>
+        </header>
+        <section class="main_text_section">
+          <span>Barberia para hombres en Kiev</span>
+          <h1>Barber Shop</h1>
+          <p>Somos expertos en corte de cabello para hombres.</p>
         </section>
-    </div>
-</body>
+        <div class="slide_controls">
+          <ul class="slide_controlers">
+            <li>Atras</li>
+            <li>Siguiente</li>
+          </ul>
+        </div>
+      </main>
+      <section class="about_section app-section" id="about">
+        <div class="img-section">
+          <img width="46%" src="./img/img1.jpg" alt="Image 1" />
+          <img width="46%" src="./img/img2.jpg" alt="image 2" />
+        </div>
+        <div class="text-section">
+          <span>Nosotros</span>
+          <h2>La mejor barbería en tu ciudad.</h2>
+          <p>
+            <i
+              >Somos un equipo que nunca se conforma con el mínimo y tiene
+              hambre de cambios. Y una vez que estás en las manos de nuestros
+              artistas expertos, nunca volverás a ser el mismo. Somos un equipo
+              que siempre está "en la misma frecuencia" con nuestros clientes.
+              Por eso ¡siempre estamos preparados para perfeccionar a todos los
+              que acuden a nosotros!</i
+            >
+          </p>
+          <p>
+            Si quieres aumentar la confianza en tu look, sin duda estás en el
+            lugar indicado.
+          </p>
 
+          <button class="main_button generic d-blok">Reserva en linea</button>
+        </div>
+      </section>
+      <section class="custom-bg-services app-section p-0 full-section">
+        <div class="services-and-prices-section">
+          <span class="text-detail"
+            >Disfruta de la compañía de los mejores maestros barberos</span
+          >
+          <h2 class="text-secondary">Servicios y precios</h2>
+          <div class="all-services">
+            <ul class="services-list list">
+              <li class="services-items text-secondary">
+                <p>Corte de pelo para hombre</p>
+              </li>
+              <li class="services-items text-secondary">
+                <p>Corte de barba</p>
+              </li>
+              <li class="services-items text-secondary">
+                <p>Arreglo de Bigote</p>
+              </li>
+              <li class="services-items text-secondary">
+                <p>Afeitado con navaja</p>
+              </li>
+            </ul>
+            <ul class="services-list list">
+              <li class="services-items text-secondary">
+                <p>Corte con un pasante</p>
+              </li>
+              <li class="services-items text-secondary">
+                <p>Corte con maquina</p>
+              </li>
+              <li class="services-items text-secondary">
+                <p>Corte infantil</p>
+              </li>
+              <li class="services-items text-secondary">
+                <p>Recubrimiento de canas</p>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <button class="main_button d-blok m-auto">Reserva en linea</button>
+          </div>
+        </div>
+      </section>
+      <section class="preferences-section full-section app-section">
+        <ul class="experience-list list">
+          <li class="experience-item">
+            <p><b>600</b></p>
+            <p>Lorem, ipsum dolor.</p>
+          </li>
+          <li class="experience-item">
+            <p><b>50</b></p>
+            <p>Lorem, ipsum dolor.</p>
+          </li>
+          <li class="experience-item">
+            <p><b>20</b></p>
+            <p>Lorem, ipsum dolor.</p>
+          </li>
+          <li class="experience-item">
+            <p><b>100</b></p>
+            <p>Lorem, ipsum dolor.</p>
+          </li>
+        </ul>
+        <div>
+          <span class="text-dark">La vieja escuela</span>
+          <h2 class="text-dark">¿Por qué nos prefieren a nosotros?</h2>
+          <p class="text-secondary">
+            De nosotros sólo dicen cosas buenas. Pero es mejor verlo y sen tirlo
+            una vez, que leerlo 10 veces.
+          </p>
+        </div>
+      </section>
+      <section class="our-team-section app-section">
+        <span class="text-dark"
+          >Para quienes de verdad valoran la “atmósfera”</span
+        >
+        <h2 class="text-dark">Nuestros Barberos</h2>
+        <ul class="list">
+          <li>
+            <img src="./img/manshave.jpg" alt="Hombre afeitando la cabeza" />
+            <p class="text-dark">John</p>
+            <span class="text-primary person-description">Extreme barber</span>
+          </li>
+          <li>
+            <img
+              src="./img/menshavingline.jpg"
+              alt="Hombre cortando el cxabello"
+            />
+            <p class="text-dark">Smit</p>
+            <span class="text-primary person-description">Extreme barber</span>
+          </li>
+          <li>
+            <img src="./img/mencut.jpg" alt="Hombre cortando cabello" />
+            <p class="text-dark">Alan</p>
+            <span class="text-primary person-description">Extreme barber</span>
+          </li>
+        </ul>
+      </section>
+      <section class="testimony-section app-section">
+        <span class="text-dark"
+          >La palabra barberia tiene sus origenes en latin</span
+        >
+        <ul class="list">
+          <li><img src="./img/imgsectioncut.jpg" alt="" /></li>
+          <li><img src="./img/imgsectiontatoo.jpg" alt="" /></li>
+          <li><img src="./img/imgshave.jpg" alt="" /></li>
+          <li><img src="./img/imgstand.jpg" alt="" /></li>
+        </ul>
+      </section>
+      <section class="resvervations-section app-section"></section>
+      <section class="contact-section app-section">
+        <h2 class="text-white">Contacto</h2>
+        <address class="addres-section">
+          Calle Vasikolvaya, 7a Kiev, 123
+          <a class="text-decoration-none text-detail" href="tel:+38044111111"
+            >+38 044 111 111</a
+          >
+          <a
+            class="text-decoration-none text-detail"
+            href="mailto:barbershop@gmail.com"
+            >barbershop@gmail.com</a
+          >
+        </address>
+        <span class="text-white">Horario</span>
+        <p class="text-detail">Todos los dias de 9:00 a 22:00</p>
+      </section>
+      <footer class="footer-section">
+        <span class="text-secondary">&copy;Copyrigth 2023</span>
+        <ul class="list">
+          <li>
+            <a
+              href="https://www.youtube.com/"
+              target="_blank"
+              rel="noopener norefered"
+              class="text-decoration-none text-dark custom-items"
+              >Youtube</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/"
+              class="text-decoration-none text-dark custom-items"
+              target="_self"
+              >Instagram</a
+            >
+          </li>
+        </ul>
+      </footer>
+    </div>
+  </body>
 </html>
