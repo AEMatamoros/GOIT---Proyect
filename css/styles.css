@@ -75,11 +75,6 @@ h2{
     display: flex;
     flex-wrap:wrap ;
 }
-.vertical-text{
-    writing-mode: vertical-lr;
-    transform: rotate(180deg);
-    padding: 2rem;
-}
 
 .text-primary{
     color: var(--primary-color);
@@ -98,14 +93,16 @@ h2{
 }
 .aside_top{
     position: absolute;
-    top: 1rem;
+    top: 20px;
 }
 
 .aside_bottom{
     position: absolute;
-    bottom: 2rem;
+    bottom: 20px;
 }
-
+.vertical-text{
+    writing-mode: vertical-rl;
+}
 .aside_link{
     text-decoration: none;
     color: var(--custom-dark);
@@ -115,6 +112,16 @@ h2{
     color: var(--primary-color);
     cursor: pointer;
 }
+
+
+
+
+
+/* .vertical-text{
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    padding: 2rem;
+} */
 .main{
     width:  90%;
     height: 100vh;
@@ -386,6 +393,7 @@ section p{
     justify-content: space-around;
     padding: 16px;
 }
+
 .icon-section > svg{
     cursor: pointer;
 }
@@ -438,7 +446,7 @@ section p{
 }
 
 .my-1{
-    margin: 20PX 0;
+    margin: 20px 0;
 }
 .addres-section{
     height: 50%;
@@ -480,8 +488,9 @@ section p{
 .line-text-decoration::before{
     content: "";
     width: 120px;
-    height: 20px;
+    height: 10px;
     display: inline-block;
+    margin: 5px;
 }
 
 .line-text-decoration::before{
@@ -489,4 +498,25 @@ section p{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+.footer-section-relative{
+    position: relative;
+    width: 100%;
+    height: 20vh;
+
+}
+
+.footer-section-relative >span{
+    position: absolute;
+    top: 48px;
+    left:48px;
+}
+
+.footer-section-relative >ul{
+    position: absolute;
+    top: 48px;
+    right:48px;
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
 }
